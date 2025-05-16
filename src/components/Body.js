@@ -1,4 +1,4 @@
-import Login from "./Login";
+ import Login from "./Login";
 import Browse from "./Browse";
 import { createBrowserRouter } from "react-router-dom";
 import { RouterProvider } from "react-router-dom";
@@ -25,10 +25,20 @@ const Body = () => {
    useEffect(() => {
     onAuthStateChanged(auth, (user) => {
       if (user) {
-        const {uid, email, displayName} = user;
-        dispatch(addUser({ uid: uid, email: email, displayName: displayName}));
+        const {uid, email, displayName, photoURL} = user;
+        dispatch(
+          addUser(
+            { 
+              uid: uid, 
+              email: email, 
+              displayName: displayName,
+              photoURL: photoURL
+            }
+          ));
       } else {
-         dispatch(removeUser());
+         dispatch(
+          removeUser()
+        );
       }
 
     });
