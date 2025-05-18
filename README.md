@@ -18,6 +18,9 @@
 - BugFix: Sign up user displayName and profile picture update
 - BugFix: If the user is not logged in Redirect /browse to Login Page and vice-versa
 - Unsubscribe to the onAuthStateChanged callback
+- Add hardcoded values to constants file
+- Register TMDB API & create an app and get access token (TMDB is only works if user have airtel network )
+- Get data from TMDB (now playing movies list API)
 
 
 # Features
