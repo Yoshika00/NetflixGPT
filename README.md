@@ -21,6 +21,15 @@
 - Add hardcoded values to constants file
 - Register TMDB API & create an app and get access token (TMDB is only works if user have airtel network )
 - Get data from TMDB (now playing movies list API)
+- Create custom hook ( useNowPlayingMovies, useMovieTrailer )
+- Create movieSlice
+- Update store with movie Data
+- Planning for MainContainer & SecondaryContainer
+- Fetch Data for Trailer video
+- Update store with Trailer Video Data
+- Embedded the Youtube Video and make it autoplay & mute
+- Add Tailwind classes for style
+- Build secondary component
 
 
 # Features
