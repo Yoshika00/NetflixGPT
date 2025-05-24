@@ -30,6 +30,10 @@
 - Embedded the Youtube Video and make it autoplay & mute
 - Add Tailwind classes for style
 - Build secondary component
+- Build Movie List
+- Build Movie Card
+- TMDB Image CDN URL
+- Create custom hooks ( useTopRatedMovies & useUpcomingMovies )
 
 
 # Features

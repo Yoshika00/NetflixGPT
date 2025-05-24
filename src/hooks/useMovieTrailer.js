@@ -14,7 +14,7 @@ const useMovieTrailer = (movieId) => {
               + movieId + 
             "/videos", API_OPTIONS);
         const json = await data.json();
-        console.log(json);
+        //console.log(json);
 
         {/*
             If filterData.length is exist or the value is not zero 
