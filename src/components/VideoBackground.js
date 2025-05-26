@@ -1,13 +1,13 @@
 
 import {  useSelector } from "react-redux";
 import useMovieTrailer from "../hooks/useMovieTrailer";
-
+import useNowPlayingMovies from "../hooks/useNowPlayingMovies"
 
 const VideoBackground = ({movieId}) => {
     const trailerVideo = useSelector( store => store.movies?.trailerVideo )
     
     useMovieTrailer(movieId);
-    //usePopularMovies(movieId);
+    //useNowPlayingMovies(movieId);
 
   return (
     <div className="w-screen">
