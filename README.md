@@ -34,6 +34,9 @@
 - Build Movie Card
 - TMDB Image CDN URL
 - Create custom hooks ( useTopRatedMovies & useUpcomingMovies )
+- GPT Search Page
+- GPT Search Bar
+- Multi-Language Feature in our App
 
 
 # Features

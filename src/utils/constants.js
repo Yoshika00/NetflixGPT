@@ -18,7 +18,12 @@ export const IMG_CDN_URL = "https://image.tmdb.org/t/p/w500/";
 
 export const BG_URL = 'https://assets.nflxext.com/ffe/siteui/vlv3/9390f6f6-cf80-4bc9-8981-8c2cc8adf98a/web/IN-en-20250421-TRIFECTA-perspective_dc5bcfdf-88a5-4972-8ffe-b28ff942f76e_small.jpg';
 
-
+export const SUPPORTED_LANGUAGE = [{identifier: "en", name: "English"},
+                                   {identifier: "hindi", name: "Hindi"},
+                                   {identifier: "spanish", name: "Spanish"},
+                                   {identifier: "korean", name: "Korean"},
+                                   {identifier: "japanese", name: "Japanese"},
+                                  ]
 
 
 
